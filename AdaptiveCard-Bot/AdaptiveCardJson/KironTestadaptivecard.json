@@ -1,0 +1,106 @@
+{
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "medium",
+      "text": "Now that we have defined the main rules and features of the format, we need to produce a schema and publish it to GitHub. The schema will be the starting point of our reference documentation"
+    },
+    {
+      "type": "Input.Text",
+      "id": "Input.Text",
+      "placeholder": "Please Enter Your Name"
+    },
+    {
+      "type": "Image",
+      "url": "https://pbs.twimg.com/profile_images/3647943215/d7f12830b3c17a5a9e4afcc370e3a37e_400x400.jpeg"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "size": "large",
+              "weight": "bolder",
+              "text": "name",
+              "separator": true
+            },
+            {
+              "type": "Input.Text",
+              "id": "Your Name",
+              "placeholder": "Please Enter Your Name",
+              "speak": "<s>Please Enter Your Name</s>"
+            },
+            {
+              "type": "Image",
+              "size": "small",
+              "style": "person",
+              "url": "https://pbs.twimg.com/profile_images/3647943215/d7f12830b3c17a5a9e4afcc370e3a37e_400x400.jpeg"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "size": "large",
+              "weight": "bolder",
+              "text": "name",
+              "separator": true
+            },
+            {
+              "type": "Input.Text",
+              "id": "Your Name",
+              "placeholder": "Please Enter Your Name",
+              "speak": "<s>Please Enter Your Name</s>"
+            },
+            {
+              "type": "Image",
+              "size": "small",
+              "style": "person",
+              "url": "https://pbs.twimg.com/profile_images/3647943215/d7f12830b3c17a5a9e4afcc370e3a37e_400x400.jpeg"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "size": "large",
+              "weight": "bolder",
+              "text": "name",
+              "separator": true
+            },
+            {
+              "type": "Input.Text",
+              "id": "Your Name",
+              "placeholder": "Please Enter Your Name",
+              "speak": "<s>Please Enter Your Name</s>"
+            },
+            {
+              "type": "Image",
+              "size": "small",
+              "style": "person",
+              "url": "https://pbs.twimg.com/profile_images/3647943215/d7f12830b3c17a5a9e4afcc370e3a37e_400x400.jpeg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Sybmit"
+    }
+  ]
+}

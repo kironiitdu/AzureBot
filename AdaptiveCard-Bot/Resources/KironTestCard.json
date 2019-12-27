@@ -1,0 +1,110 @@
+
+ 
+ {
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "medium",
+      "text": "Kiron test rich card"
+    },
+    {
+      "type": "Input.Text",
+      "id": "Input.Text",
+      "size": "small",
+      "text": " "
+    },
+    {
+      "type": "Image",
+      "url": "https://adaptivecards.io/content/cats/1.png"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "size": "large",
+              "weight": "bolder",
+              "text": "name",
+              "separator": true
+            },
+            {
+              "type": "Input.Text",
+              "id": "Your Name1",
+              "placeholder": "Please Enter Your Name",
+              "speak": "<s>Please Enter Your Name</s>"
+            },
+            {
+              "type": "Image",
+              "size": "small",
+              "style": "person",
+              "url": "https://pbs.twimg.com/profile_images/3647943215/d7f12830b3c17a5a9e4afcc370e3a37e_400x400.jpeg"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "size": "large",
+              "weight": "bolder",
+              "text": "name",
+              "separator": true
+            },
+            {
+              "type": "Input.Text",
+              "id": "Your Name3",
+              "placeholder": "Please Enter Your Name",
+              "speak": "<s>Please Enter Your Name</s>"
+            },
+            {
+              "type": "Image",
+              "size": "small",
+              "style": "person",
+              "url": "https://pbs.twimg.com/profile_images/3647943215/d7f12830b3c17a5a9e4afcc370e3a37e_400x400.jpeg"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "size": "large",
+              "weight": "bolder",
+              "text": "name",
+              "separator": true
+            },
+            {
+              "type": "Input.Text",
+              "id": "Your Name",
+              "placeholder": "Please Enter Your Name",
+              "speak": "<s>Please Enter Your Name</s>"
+            },
+            {
+              "type": "Image",
+              "size": "small",
+              "style": "person",
+              "url": "https://pbs.twimg.com/profile_images/3647943215/d7f12830b3c17a5a9e4afcc370e3a37e_400x400.jpeg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Submit"
+    }
+  ]
+}

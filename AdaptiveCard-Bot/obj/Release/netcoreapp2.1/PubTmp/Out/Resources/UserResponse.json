@@ -1,0 +1,26 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+
+  "actions": [
+
+    {
+      "type": "Action.Submit",
+      "title": "Yes",
+      "id": "yes",
+      "data": {
+        "value": "yes"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "No",
+      "id": "no",
+      "data": {
+        "value": "no"
+      }
+    }
+
+  ]
+}

@@ -1,0 +1,72 @@
+.m-signature-pad {
+  font-size: 10px;
+  width: 500px;
+  height: 300px;
+  border: 1px solid #e8e8e8;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.08) inset;
+  border-radius: 4px;
+}
+.clear-button-area{width: 10%;float: left;display:inline-block}
+.sign-above{ width: 80%;text-align: center;float: left;display:inline-block}
+.save-button-area{ width: 10%;float: left;display:inline-block}
+.m-signature-pad:before, .m-signature-pad:after {
+	background: transparent;
+	-webkit-transform: skew(-3deg) rotate(-3deg);
+	-moz-transform: skew(-3deg) rotate(-3deg);
+	-ms-transform: skew(-3deg) rotate(-3deg);
+	-o-transform: skew(-3deg) rotate(-3deg);
+	transform: skew(-3deg) rotate(-3deg);
+	box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+}
+
+.m-signature-pad:after {
+	-webkit-transform: skew(3deg) rotate(3deg);
+	-moz-transform: skew(3deg) rotate(3deg);
+	-ms-transform: skew(3deg) rotate(3deg);
+	-o-transform: skew(3deg) rotate(3deg);
+	transform: skew(3deg) rotate(3deg);
+}
+
+.m-signature-pad--body {
+    width: 100%;
+    height: 100%;
+  border-bottom: 1px solid #999;
+    margin-bottom: 20px;
+    cursor: crosshair;
+}
+
+.m-signature-pad--body
+  canvas {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.02) inset;
+  }
+
+.m-signature-pad--footer {
+  height: 40px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .m-signature-pad {
+    width: auto;
+    height: auto;
+    min-width: 250px;
+    margin: 5%;
+  }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /*.m-signature-pad {
+    margin: 10%;
+  }*/
+}
+
+@media screen and (max-height: 320px) {
+  .m-signature-pad--body {
+     margin-bottom: 10px;
+  }
+}
+.k-button{ width: 100% !important;}
