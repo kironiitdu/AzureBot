@@ -77,14 +77,7 @@ namespace Microsoft.BotBuilderSamples
                 //await turnContext.SendActivityAsync(MessageFactory.Attachment(cardAttachment), cancellationToken);
             }
 
-            //Check Activity value
-
-            //if (activityValue.id !=null)
-            //{
-            //    checkUserInput = activityValue.id;
-            //}
-          
-          
+                      
 
                 switch (checkUserInput)
             {
@@ -325,21 +318,6 @@ namespace Microsoft.BotBuilderSamples
     }
 }
 
-//""type"": ""AdaptiveCard"",
-//""version"": ""1.0"",
-//""body"": [
-//    {
-//        ""type"": ""TextBlock"",
-//        ""text"": ""Hello {name}""
-//    },
-//    {
-//  ""type"": ""Input.Text"",
-//  ""text"": ""Hello {name}"",
-//  ""placeholder"": ""Last Name"",
-//  ""style"": ""Url"",
-//  ""id"": ""lastName""
-//}
-//]
 
 
 
